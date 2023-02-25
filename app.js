@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use(express.static("car-database/build"))
 
 /* set server to listen to port 8000 */
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 
 app.listen(PORT, function() {
     console.log(`Listening on port ${PORT}`)
