@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Car Database Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web application that allows a user to interact with a database of cars stored on MongoDB. The frontend of the application was built using React, using Redux to handle state, and the backend was built using Express and Node, with Mongoose used to interact with the database.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+Section | Link |
+--- | --- |
+How to install | [Link](https://github.com/Grattade07/car-database/edit/main/README.md#installing-the-project-locally)
+How to use | [Link](https://github.com/Grattade07/car-database/edit/main/README.md#how-to-use-the-application)
 
-### `npm start`
+## Installing the project locally 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* To install the project to your local machine get the repo URL from here:
+![image](https://user-images.githubusercontent.com/107367099/222226383-1945e054-e3f7-4760-9f19-dd4fee1febe1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Go to the folder you want to clone the repo to on your desktop
 
-### `npm test`
+* Use 'git clone [url]' in your terminal/command prompt to download a clone of the repo and then enter the downloaded folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* In the folder, run 'npm install' in your terminal/command prompt then run 'npm start' and open 'localhost:3001' in your web browser to run the application locally
 
-### `npm run build`
+## How to use the application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/107367099/222227289-4d57bcea-77ed-47c3-a08c-fda441526e7c.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To add a car to the database enter the details of the car to these inputs and press the button to submit the new car details.
+![image](https://user-images.githubusercontent.com/107367099/222227676-ce731175-cc52-46eb-88fd-c0cc115606af.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can update the owner of a car by putting the relevant car's registration number and new owner's name into the inputs here and press the button to update the information.
+![image](https://user-images.githubusercontent.com/107367099/222228225-462f2d1b-af3a-4997-9e1c-830aceeea6b5.png)
 
-### `npm run eject`
+You can update the makes of all the cars belonging to one owner by entering the relevant information here nad pressing the button to submit the information.
+![image](https://user-images.githubusercontent.com/107367099/222228734-d09a7a97-32a2-4500-ba2a-64bd31d019c7.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can delete a car from the database by putting the registration of the car you want to remove into the input here and press the button to sumbit the request.
+![image](https://user-images.githubusercontent.com/107367099/222229221-0a219655-3ef9-4aa7-9d7f-0eec159944cc.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A table showing all of the cars in the database and all cars older than 5 years old are shown at the bottom of the page.
+![image](https://user-images.githubusercontent.com/107367099/222229542-c21a74a2-ce56-49ca-9e54-082af93f2599.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
