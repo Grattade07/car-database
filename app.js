@@ -21,7 +21,7 @@ app.listen(PORT, function() {
 const mongoose = require("mongoose")
 
 /* url to connect to database */
-const uri = "mongodb+srv://joe_woodcock15:Sp2m3gURNTNAELJi@hyperiondev-t55.98pyee9.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://joe_woodcock15:eJlPjZqjSooA8vho@hyperiondev-t55.98pyee9.mongodb.net/?retryWrites=true&w=majority";
 mongoose.Promise = global.Promise;
 
 /* connects to the database */
